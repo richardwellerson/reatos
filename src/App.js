@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './Components/Header';
+import FirstDiv from './Components/FirstDiv';
 import './App.css';
 
 const App = () => (
   <div className="App">
-    <Header />
+    <FirstDiv />
   </div>
 );
 

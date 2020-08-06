@@ -9,6 +9,14 @@ body {
   height: 10vh;
   font-style: normal;
   font-weight: 400;
+  position: absolute;
+  width: 100%;
+}
+
+.Header_options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Header_options button {
