@@ -1,0 +1,7 @@
+.GoodRank_father {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 2em;
+}
