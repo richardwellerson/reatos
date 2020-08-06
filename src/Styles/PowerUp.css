@@ -1,0 +1,30 @@
+.PowerUp_father {
+  display: flex;
+}
+
+.PowerUp_background {
+  margin-top: -10%;
+  width: 100%;
+}
+
+.PowerUp_absolute {
+  position: absolute;
+  padding-top: 20vh;
+  padding-left: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.PowerUp_absolute img {
+  width: 70%;
+  height: auto;
+}
+
+.PowerUp_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
