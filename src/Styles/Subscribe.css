@@ -1,0 +1,22 @@
+.Subscribe_father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 190px;
+}
+
+.Subscribe_data {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  z-index: 1;
+}
+
+.Subscribe_father img {
+  position: absolute;
+  width: 80%;
+  z-index: 0;
+}
