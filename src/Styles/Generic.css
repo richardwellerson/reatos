@@ -23,6 +23,7 @@
   border-radius: 8px;
   height: 40px;
   width: 100px;
+  margin: 1em;
 }
 
 .WhiteButton:hover {

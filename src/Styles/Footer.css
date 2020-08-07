@@ -1,0 +1,47 @@
+.Footer_father {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer_background {
+  position: absolute;
+  /* height: 40em;
+  width: 100%; */
+  z-index: 0;
+}
+
+.Footer_data {
+  margin: 14vh 0 14vh 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  z-index: 1;
+}
+
+.Footer_button {
+  background: none;
+  color: black;
+  margin: 10px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.Footer_button:hover {
+  color: cadetblue;
+}
+
+.Footer_categories {
+  display: flex;
+  flex-flow: column wrap;
+  height: 40vh;
+}
+
+.Footer_copyright {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3vh;
+  width: 40%;
+  z-index: 2;
+}
