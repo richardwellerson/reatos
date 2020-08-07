@@ -5,6 +5,7 @@
 .PowerUp_background {
   margin-top: -10%;
   width: 100%;
+  height: auto;
 }
 
 .PowerUp_absolute {
@@ -18,7 +19,8 @@
 }
 
 .PowerUp_absolute img {
-  width: 70%;
+  max-width: 30%;
+  padding-right: 4em;
   height: auto;
 }
 
