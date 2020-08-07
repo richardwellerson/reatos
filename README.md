@@ -2,7 +2,9 @@
 
 Olá.
 
-Neste repositório há uma cópia da página de SEO do Google.
+Neste repositório há uma parte da cópia da página de SEO do Google.
+
+Momentaneamente, a aplicação não está responsiva.
 
 Foram utilizadas as seguintes tecnologias:
 
@@ -14,7 +16,19 @@ Foram utilizadas as seguintes tecnologias:
 
 Você pode acompanhar todas as alterações do projeto no site acima.
 
-Note que por se tratar de um plano Free, na primeira inicialização do link, `o Heroku faz um loading da aplicação`, demorando em torno de `30 segundos` na primeira visita ao site.
-`Após um período de 30 minutos sem atividades no site, ele entra em hibernação`.
+Caso queira testar a aplicação localmente, execute os seguintes comandos no seu terminal:
+
+1. git clone https://github.com/richardwellerson/reatos
+
+2. cd reatos
+
+3. npm install
+
+4. npm start
+
+Para executar localmente, é necessário ter o git e o node/npm instalados na máquina.
+
+No deploy, note que por se tratar de um plano Free, na primeira inicialização do link, `o Heroku faz um loading da aplicação`, demorando em torno de `1 minuto`.
+`Após um período de 30 minutos sem atividades no site, ele entra em hibernação` e o tempo de espera é próximo de 2 minutos.
 
 _Open Source is magic._
