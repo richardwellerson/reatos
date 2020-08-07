@@ -11,9 +11,9 @@ const GoodRank = () => {
         Donec tincidunt dictum lobortis. Ut aliquam nisl eget justo finibus,
         ac efficitur enim faucibus. Proin ultrices sagittis libero et maximus.
       </p>
-      <div>
+      <div className="GoodRank_titles">
         {titles.map(({ title, image, describe }) => (
-          <div>
+          <div className="GoodRank_eachTitle">
             <h3>{title}</h3>
             <img src={image} alt={`${title}`} />
             <p>{describe}</p>
